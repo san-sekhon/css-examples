@@ -3,10 +3,65 @@
   <head>
     <meta charset="utf-8"/>
     <title>Tables Task</title>
-
     <style>
       table {
+        table-layout: fixed;
         font-size: 75%;
+        width: 100%;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      tfoot th{
+        border-top: 1px solid black;
+      }
+
+      tfoot td{
+        border-top: 1px solid black;
+      }
+
+      tfoot th{
+        text-align: right;
+      }
+
+      tbody tr:nth-child(odd) {
+         background-color: rgb(254,212,126);
+      }
+
+      th, td {
+        padding: 20px;
+      }
+      thead th:nth-child(2) {
+        text-align: right;
+      }
+
+      thead th:nth-child(3) {
+        text-align: right;
+      }
+
+      tbody td:nth-child(2) {
+        text-align: right;
+      }
+
+      tbody td:nth-child(3) {
+        text-align: right;
+      }
+
+      thead th:nth-child(1) {
+        text-align: center;
+      }
+
+      thead th:nth-child(4) {
+        text-align: left;
+      }
+
+      tbody td:nth-child(1) {
+        text-align: left;
+      }
+
+      tbody td:nth-child(4) {
+        text-align: left;
       }
     </style>
 
